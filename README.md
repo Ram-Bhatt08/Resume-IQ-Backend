@@ -43,27 +43,27 @@ Configurable Weights: Adjust scoring parameters based on requirements
 Timeout Handling: Prevents hanging on complex analyses
 
 # File Structure 
-backend/
-│   ├── main.py
-│   ├── agent/
-│   │   ├── resume_agent.py
-│   │   ├── agent_prompts.py
-│   │   └── agent_config.py
-│   ├── analyzer/
-│   │   ├── enhanced_skill_extractor.py
-│   │   ├── experience_analyzer.py
-│   │   ├── education_analyzer.py
-│   │   └── project_analyzer.py
-│   ├── models/
-│   │   ├── request_model.py
-│   │   └── response_model.py
-│   ├── utils/
-│   │   ├── constants.py
-│   │   └── text_processor.py
-│   ├── config/
-│   │   └── settings.py
-│   ├── requirements.txt
-│   └── .env
+backend/ <br>
+│   ├── main.py <br>
+│   ├── agent/ <br>
+│   │   ├── resume_agent.py <br>
+│   │   ├── agent_prompts.py <br>
+│   │   └── agent_config.py <br>
+│   ├── analyzer/ <br>
+│   │   ├── enhanced_skill_extractor.py <br>
+│   │   ├── experience_analyzer.py <br>
+│   │   ├── education_analyzer.py <br>
+│   │   └── project_analyzer.py <br>
+│   ├── models/ <br>
+│   │   ├── request_model.py <br>
+│   │   └── response_model.py <br>
+│   ├── utils/ <br>
+│   │   ├── constants.py <br>
+│   │   └── text_processor.py <br>
+│   ├── config/ <br>
+│   │   └── settings.py <br>
+│   ├── requirements.txt <br>
+│   └── .env <br>
 
 # Component Breakdown
 FastAPI Backend (main.py): Handles HTTP requests, CORS, and routing
